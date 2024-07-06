@@ -9,7 +9,7 @@ const Footer = () => {
               <div className="max-w-[1200px] mx-auto flex flex-col md:flex-row items-center justify-center">
     
                 <div className="text-center md:text-left mb-2 md:mb-0">
-                  <p className="text-lg">Copyright © 2024 All rights reserved | Designed By Sudais Khan .</p>
+                  <p className="text-lg">Copyright © 2024 All rights reserved | Developed By Sudais Khan .</p>
                 </div>
             
               </div>

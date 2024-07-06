@@ -67,7 +67,7 @@ const Accordions = ({ items }) => {
         <h1 className='text-center sm:text-5xl text-4xl font-bold text-white'>Frequently Asked Questions</h1>
         <p className='text-center mt-7 text-white text-lg'>Got more questions? Feel free to contact us for more information.</p>
 
-        <div className='mt-20 container grid lg:grid-cols-2 xl:gap-x-10 gap-6 mx-auto'>
+        <div className='mt-20 container grid lg:grid-cols-2 xl:gap-x-10 mx-auto'>
           <div>
             {itemsCol1.map((item, index) => renderAccordionItem(item, index, activeIndexCol1, handleItemClickCol1))}
           </div>
